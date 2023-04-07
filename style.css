@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Kanit', sans-serif;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    height: 10vh;
+    align-items: center;
+    background-color: rgb(19, 229, 236);
+}
+
+header{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+
+.search{
+    border: 1px solid rgb(44, 43, 43);
+    padding: 5px 10px;
+    width: 30%;
+    border-radius: 20px;
+}
+
+.search p{
+    text-transform: uppercase;
+    color: rgb(102, 100, 98);
+}
+
+.theme-toggler{
+    display: flex;
+    background-color: rgba(46, 46, 46, 0.822);
+    border-radius: 20px;
+    padding: 1vh 10px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width:75px;
+}
+
+.svg{
+    font-size: 20px;
+}
+
+.light{
+    color: white;
+}
+
+.toggler{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(19, 229, 236);
+    position: absolute;
+    /* right: 10px; */
+    transition: right 5s ease;
+}
+
+.active{
+    right: 10px;
+}
+

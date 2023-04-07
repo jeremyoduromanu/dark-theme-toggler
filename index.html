@@ -7,10 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dark Theme Toggler</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f8a448cfb9.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-
+    <nav>
+        <header>Dark Theme Toggler</header>
+        <div class="search">
+            <p>search</p>
+        </div>
+        <div class="theme-toggler">
+            <div class="light svg">
+                <i class="fa-regular fa-sun svg light"></i>
+            </div>
+            <div class="dark svg">
+                <i class="fa-regular fa-moon svg dark"></i>
+            </div>
+            <div class="toggler" id="toggler"></div>
+        </div>
+    </nav>
     <script src="./app.js"></script>
 </body>
 
